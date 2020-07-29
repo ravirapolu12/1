@@ -1,0 +1,92 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  }
+  
+.bg {
+    background-image: url("Beautiful-Building-Wallpaper-HD.jpg");
+    padding-top: 10px;
+
+    height: 100%;
+    width: 100% ;
+  
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: 5s;
+
+    animation-name: animate;
+    animation-direction: normal;
+    animation-duration: 30s;
+    animation-fill-mode: none;
+    animation-iteration-count: infinite;
+    animation-play-state: initial;
+    animation-timing-function: ease-in-out;
+    
+  }
+.text{
+  padding-top: 10%;
+  text-align: center;
+}
+
+  @keyframes animate{
+
+    0%{
+      background-image: url("Beautiful-Building-Wallpaper-HD.jpg"); 
+    }
+    50%{
+      background-image: url("escalator-1595672974695-9083.jpg");
+    }
+    100%{
+      background-image: url("claudio-de-sat-architecture-modern-elevator-wallpaper-preview.jpg");
+    }
+
+  }
+
+  nav{
+    
+    background-color: skyblue;
+    display: contents;
+    width: 100%;
+}
+
+  .a{
+    text-align: left;
+    text-decoration: none;
+    float: right;
+    padding: 20px;
+}
+
+.a:hover{
+    text-decoration: underline;
+}
+
+.b{
+    padding: 80px;
+}
+
+@keyframes bgFadeInOut {
+    0% {
+    opacity:1;
+  }
+  45% {
+  opacity:1;
+  }
+  55% {
+  opacity:0;
+  }
+  100% {
+  opacity:0;
+  }
+  }
+  
+  #cf3 img.bg {
+  animation-name: bgFadeInOut;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-duration: 10s;
+  animation-direction: alternate;
+  }
+  
